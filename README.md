@@ -45,10 +45,10 @@ mvnw.cmd -f rabbitmq-receiver/pom.xml clean install spring-boot:run
 docker-compose up -d
 
 ## Build and run publisher application using Maven Wrapper
-./mvnw -f rabbitmq-publisher/pom.xml clean install spring-boot:run
+sudo ./mvnw -f rabbitmq-publisher/pom.xml clean install spring-boot:run
 
 ## Build and run receiver application using Maven Wrapper
-./mvnw -f rabbitmq-receiver/pom.xml clean install spring-boot:run
+sudo ./mvnw -f rabbitmq-receiver/pom.xml clean install spring-boot:run
 ```
 
 ## RabbitMQ access
